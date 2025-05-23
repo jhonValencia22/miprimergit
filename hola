@@ -1,0 +1,50 @@
+const yo = {
+    nombre: "Jhon",
+    apellido: "Valencia",
+    edad: 22,
+    pais: "Colombia",
+    profesion: "ing sistema",
+    sabeManejar: false,
+    mascotas :[
+        { nombre: "Fido", especie: "Perro" },
+        { nombre: "Michi", especie: "Gato" }
+    ],
+    hobbies: ["musica", "fulbol", "programar"],
+    tocaInstrumento: false,
+    nivelIngles: "medio",
+    ciudad: "florencia",
+    redesSociales: {
+        fc: "facebook",
+        wh: "whatzaap",
+        tic: "tickto",
+    },
+    peliculasFavorita: ["mongodb", "smith", "lagrimas del sol", "enitma"],
+    comidasFavorita: ["frijole", "arroz con pollo", "carne asado", "pescado"],
+    sabesCocinar: true,
+    diaSemanaFavorito: "domingo",
+    bandaSonora: {
+        compositor: "John Williams",
+        temas: ["Tema Principal", "Viaje a la Isla", "Tema del T-Rex"],
+        duracionMinutos: 60
+    },
+
+    //arrays de objetos
+    locacionesFilmacion: [
+        {
+            lugar: "Hawái",
+            detalles: ["Isla de Kauai", "Maui"]
+        },
+        {
+            lugar: "California",
+            detalles: ["Universal Studios"]
+        }
+    ],
+    curiosidades: [
+        "La película está adaptada de la novela de Michael Crichton.",
+        "El rugido del T-Rex se creó usando una combinación de sonidos de animales, incluyendo elefantes y leones.",
+        "Muchos de los dinosaurios de la película fueron creados utilizando animatronics y CGI."
+    ],
+
+};
+
+console.log(yo);
